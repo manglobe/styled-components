@@ -34,9 +34,9 @@ We want contributors to provide ideas, keep the ship shipping and to take some o
 
 The fact that you'll have push access will allow you to:
 
-* Avoid having to fork the project if you want to submit other pull requests as you'll be able to create branches directly on the project.
-* Help triage issues, merge pull requests.
-* Pick up the project if other maintainers move their focus elsewhere.
+- Avoid having to fork the project if you want to submit other pull requests as you'll be able to create branches directly on the project.
+- Help triage issues, merge pull requests.
+- Pick up the project if other maintainers move their focus elsewhere.
 
 It's up to you to use those superpowers or not though 😉
 
@@ -64,7 +64,7 @@ Here is a quick guide to doing code contributions to the library.
 
 4. Make your changes and commit: `git add` and `git commit`
 
-5. Make sure that the tests still pass: `npm test` and `npm run flow` (for the type checks)
+5. Make sure that the tests still pass: `yarn test` and `yarn run flow` (for the type checks)
 
 6. Push your branch: `git push -u origin your-branch-name`
 
@@ -88,19 +88,19 @@ To use the sandbox, follow these steps:
 
 1. Go to sandbox folder: `cd sandbox`
 
-2. Install all the dependencies: `yarn install` or `npm install`
+2. Install all the dependencies: `yarn install`. Since this repository uses `yarn` workspaces, avoid using `npm` where you can.
 
-3. Run `yarn start` or `npm start` to start sandbox server
+3. Run `yarn start` to start sandbox server
 
 Now you should have the sandbox running on `localhost:3000`. The Sandbox supports client-side and server-side rendering.
 
 You can use an interactive editor, powered by [`react-live`](https://react-live.philpl.com/), to test your changes. But if you want more control, you can edit the sandbox itself too:
 
-* Root `<App>` component is located at `styled-components/sandbox/src/App.js` file
+- Root `<App>` component is located at `styled-components/sandbox/src/App.js` file
 
-* Client-side entry point is at `styled-components/sandbox/src/browser.js`
+- Client-side entry point is at `styled-components/sandbox/src/browser.js`
 
-* Server-side entry point is at `styled-components/sandbox/src/server.js`
+- Server-side entry point is at `styled-components/sandbox/src/server.js`
 
 In the sandbox source, `styled-components` is an alias to `styled-components/src` folder, so you can edit the source directly and dev-server will handle rebuilding the source and livereloading your sandbox after the build is done.
 
@@ -152,28 +152,23 @@ a git hook is already present.
 
 These contribution guidelines are based on https://github.com/moya/contributors, big thanks to @alloy, @orta et al. for the inspiration and guidance.
 
-
 ## Financial contributions
 
 We also welcome financial contributions in full transparency on our [open collective](https://opencollective.com/styled-components).
 Anyone can file an expense. If the expense makes sense for the development of the community, it will be "merged" in the ledger of our open collective by the core contributors and the person who filed the expense will be reimbursed.
 
-
 ## Credits
-
 
 ### Contributors
 
 Thank you to all the people who have already contributed to styled-components!
 <a href="graphs/contributors"><img src="https://opencollective.com/styled-components/contributors.svg?width=890" /></a>
 
-
 ### Backers
 
 Thank you to all our backers! [[Become a backer](https://opencollective.com/styled-components#backer)]
 
 <a href="https://opencollective.com/styled-components#backers" target="_blank"><img src="https://opencollective.com/styled-components/backers.svg?width=890"></a>
-
 
 ### Sponsors
 

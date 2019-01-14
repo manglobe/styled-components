@@ -6,6 +6,8 @@ _The format is based on [Keep a Changelog](http://keepachangelog.com/) and this 
 
 ## Unreleased
 
+- Move to Mono repository structure with lerna [@imbhargav5](https://github.com/imbhargav5) (see [#2326](https://github.com/styled-components/styled-components/pull/2326))
+
 ## [v4.1.2] - 2018-11-28
 
 - Fix function-form attrs to receive the full execution context (including theme) (see [#2210](https://github.com/styled-components/styled-components/pull/2210))
