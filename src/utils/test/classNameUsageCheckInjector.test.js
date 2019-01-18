@@ -22,7 +22,7 @@ describe('classNameUsageCheckInjector', () => {
 
     renderIntoDocument(
       <StyledComp
-        className="   foo
+        className="   foo 
         bar  "
       />
     );
